@@ -3,9 +3,7 @@ A list of edge cases that occur in bug bounty programs and how they should be ha
 
 ## NOTE
 
-```
 This document is a draft, and not yet implemented by any bug bounty platforms. At this stage, I am requesting comments from all interested parties.
-```
 
 
 | Situation                                                                                                                                                                                                                                                                            | Resolution                                                                                                                                                                                                                                                                                  |
