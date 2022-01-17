@@ -1,9 +1,16 @@
-# Bug Bounty Standards
-A list of edge cases that occur in bug bounty programs and how they should be handled. There are a lot of edge cases in bug bounty programs that are handled on a case-by-case basis, which leads to a lot of uncertainty and frustration both from hackers, program owners and platforms. The goal of this repository is to standardise the way that these edge-cases are handled in bug bounties.
+# What is This Repository?
+This repository is a list of situations that occur in bug bounty programs and how they should be handled. Many of these are currently handled on a case-by-case basis, which leads to a lot of uncertainty and frustration from hackers, program owners and platforms. The goal of this repository is to standardise the way that these edge-cases are handled across all bounty platforms and programs. Hopefully standardization will allow expectations to be fulfilled more frequently from all parties.
 
-## NOTE
+
+# This is a Draft
 
 This document is a draft, and not yet implemented by any bug bounty platforms. At this stage, I am requesting comments from all interested parties.
+
+# How to Contribute
+
+Please contribute by opening GitHub issues. All reasonable issues submitted will remain open for a minimum of 30 days for comments.
+
+# The Table
 
 
 | Situation                                                                                                                                                                                                                                                                            | Resolution                                                                                                                                                                                                                                                                                  |
@@ -15,3 +22,4 @@ This document is a draft, and not yet implemented by any bug bounty platforms. A
 | Hacker submits vulnerability, hacker is incorrectly duped against a newer report.                                                                                                                                                                                                    | Platform changes the status of both reports to be accurate. If payment has already been made incorrectly, the organization who triaged incorrectly pays the bounty. For managed bounty programs this would generally be the platform, but for unmanaged programs this would be the program. |
 | Hacker disagrees on the assigned severity rating.                                                                                                                                                                                                                                    | Hacker submits reasoning to ticket. If there is no response for 14 days, hacker submits reasoning to the platform's support channel. Severity upgrades are decided on a per-submission basis.                                                                                               |
 | Hacker publicly discloses a bug that has been previously submitted to the platform, without explicit permission from the program owner.                                                                                                                                              | Hacker receives 30 day ban from platform, hacker is emailed with full reasoning behind ban. Repeat offence results in permanent ban.                                                                                                                                                        |
+| Hacker submits a bug that is within scope of the program, but is actually a bug in a third-party service.                                                                                                                                                                            | Every program should specify whether they accept bugs on 3rd party systems within their brief. If there is no specification, then it is assumed that ALL systems listed in the scope will be accepted for vulnerabilities, including 3rd party systems.                                     |
