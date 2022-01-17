@@ -10,6 +10,14 @@ This document is a draft, and not yet implemented by any bug bounty platforms. A
 
 Please contribute by opening GitHub issues. All reasonable issues submitted will remain open for a minimum of 30 days for comments.
 
+Your issue should state an opinion, e.g.
+
+- I feel that a scenario should be added for when a hacker reaches out directly to the program directly instead of reporting through the provided platform.
+- I feel that a scenario should be added for one party is abusive to another.
+- I feel that the resolution for scenario 4 should be changed to "hacker is able to publicly disclose vulnerability after 120 days of non-response".
+
+Comments on the issue are welcome by anyone, but must be constructive and unemotional. Abusive behaviour will not be tolerated.
+
 # The Table
 
 
