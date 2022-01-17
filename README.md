@@ -1,5 +1,12 @@
 # Bug Bounty Standards
-A list of edge cases that occur in bug bounty programs, conversations on how they should be handled. The goal is to standardise the way that specific situations are handled in bug bounties.
+A list of edge cases that occur in bug bounty programs and how they should be handled. There are a lot of edge cases in bug bounty programs that are handled on a case-by-case basis, which leads to a lot of uncertainty and frustration both from hackers, program owners and platforms. The goal of this repository is to standardise the way that these edge-cases are handled in bug bounties.
+
+## NOTE
+
+```
+This document is a draft, and not yet implemented by any bug bounty platforms. At this stage, I am requesting comments from all interested parties.
+```
+
 
 | Situation                                                                                                                                                                                                                                                                            | Resolution                                                                                                                                                                                                                                                                                  |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
